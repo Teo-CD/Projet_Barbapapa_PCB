@@ -6,8 +6,8 @@
 
   (title_block
     (title "Projet Barbapapa")
-    (date "2023-06-19")
-    (rev "0.1")
+    (date "2023-06-22")
+    (rev "0.2")
     (company "Téo-CD")
   )
 
@@ -329,7 +329,7 @@
     (pin "7" (uuid 395b4305-c57a-4715-a243-546d368bfc14))
     (pin "8" (uuid b5747c91-37c3-4e57-8ce7-3574eb054917))
     (instances
-      (project "Projet_JIN"
+      (project "Projet_Barbapapa"
         (path "/1f7900b2-90c4-494b-ac10-3ced4db03c46"
           (reference "J4") (unit 1)
         )
@@ -357,7 +357,7 @@
     )
     (pin "VSS" (uuid d9fdb115-1896-4bef-971b-52c10f3a3174))
     (instances
-      (project "Projet_JIN"
+      (project "Projet_Barbapapa"
         (path "/1f7900b2-90c4-494b-ac10-3ced4db03c46"
           (reference "VSS02") (unit 1)
         )
@@ -392,7 +392,7 @@
     (pin "7" (uuid d514ab33-575c-4f2e-9a79-b01b09ba2c01))
     (pin "8" (uuid 3313d733-0d05-4835-aa78-1bc94f48a7f6))
     (instances
-      (project "Projet_JIN"
+      (project "Projet_Barbapapa"
         (path "/1f7900b2-90c4-494b-ac10-3ced4db03c46"
           (reference "J4") (unit 1)
         )
@@ -420,7 +420,7 @@
     )
     (pin "VSS" (uuid 27305ce8-eeff-4443-a927-45548af51e1a))
     (instances
-      (project "Projet_JIN"
+      (project "Projet_Barbapapa"
         (path "/1f7900b2-90c4-494b-ac10-3ced4db03c46"
           (reference "VSS01") (unit 1)
         )
@@ -448,7 +448,7 @@
     )
     (pin "VSS" (uuid 56c401b8-0f99-4a81-917f-bc9c177ce2b4))
     (instances
-      (project "Projet_JIN"
+      (project "Projet_Barbapapa"
         (path "/1f7900b2-90c4-494b-ac10-3ced4db03c46"
           (reference "VSS01") (unit 1)
         )
@@ -476,7 +476,7 @@
     )
     (pin "VSS" (uuid 6e2bf6af-58f4-44cb-9b55-5461acd69fc4))
     (instances
-      (project "Projet_JIN"
+      (project "Projet_Barbapapa"
         (path "/1f7900b2-90c4-494b-ac10-3ced4db03c46"
           (reference "VSS02") (unit 1)
         )

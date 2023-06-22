@@ -6,8 +6,8 @@
 
   (title_block
     (title "Projet Barbapapa")
-    (date "2023-06-19")
-    (rev "0.1")
+    (date "2023-06-22")
+    (rev "0.2")
     (company "Téo-CD")
   )
 
@@ -765,6 +765,12 @@
     (uuid f7038b01-f64d-4977-a261-3b0431d36c9d)
   )
 
+  (no_connect (at 33.02 71.12) (uuid 19f47c4d-3e6b-453e-a337-64da18924b6c))
+  (no_connect (at 58.42 50.8) (uuid 45e86429-d2b9-467c-93f8-5ac1f6131931))
+  (no_connect (at 33.02 68.58) (uuid 9e7f79fe-1d04-4403-9b34-4e6b491a120e))
+  (no_connect (at 33.02 63.5) (uuid aa208d08-f2d8-4a2e-95ab-a579dac61dd0))
+  (no_connect (at 33.02 66.04) (uuid ba7b4fe0-c051-4fe8-8366-4617f10d0301))
+
   (wire (pts (xy 78.74 62.23) (xy 77.47 62.23))
     (stroke (width 0) (type default))
     (uuid 02bde14e-f77a-463f-9569-67ecfc179467)
@@ -970,7 +976,7 @@
     (pin "1" (uuid fd18ecfb-026f-46b0-be9f-7fe88c6ed975))
     (pin "2" (uuid ab4bbe26-3997-4438-9723-0d768e149e72))
     (instances
-      (project "Projet_JIN"
+      (project "Projet_Barbapapa"
         (path "/1f7900b2-90c4-494b-ac10-3ced4db03c46"
           (reference "J2") (unit 1)
         )
@@ -998,7 +1004,7 @@
     )
     (pin "VSS" (uuid dc7f1ab3-6ffd-4897-b240-9db4271c60bf))
     (instances
-      (project "Projet_JIN"
+      (project "Projet_Barbapapa"
         (path "/1f7900b2-90c4-494b-ac10-3ced4db03c46/6cd5a50a-ff0a-4158-bf93-a56892953603"
           (reference "#VSS0101") (unit 1)
         )
@@ -1038,7 +1044,7 @@
     (pin "8" (uuid d4a721e7-6c5b-4381-9e55-4e576d83627b))
     (pin "9" (uuid 1b856664-fd72-42d2-b16b-363a3a6b293c))
     (instances
-      (project "Projet_JIN"
+      (project "Projet_Barbapapa"
         (path "/1f7900b2-90c4-494b-ac10-3ced4db03c46/6cd5a50a-ff0a-4158-bf93-a56892953603"
           (reference "U4") (unit 1)
         )
@@ -1070,7 +1076,7 @@
     (pin "1" (uuid bc63e79f-2de3-4a45-a2be-8bd88b2868ed))
     (pin "2" (uuid 9f250f84-350f-4bfa-9fcb-889143342df4))
     (instances
-      (project "Projet_JIN"
+      (project "Projet_Barbapapa"
         (path "/1f7900b2-90c4-494b-ac10-3ced4db03c46/6cd5a50a-ff0a-4158-bf93-a56892953603"
           (reference "R7") (unit 1)
         )
@@ -1102,7 +1108,7 @@
     (pin "1" (uuid 00bfaf84-1db2-486f-92a4-c2ea9e9e31b1))
     (pin "2" (uuid 65731e6f-cdbe-4e87-b11d-3974c788c400))
     (instances
-      (project "Projet_JIN"
+      (project "Projet_Barbapapa"
         (path "/1f7900b2-90c4-494b-ac10-3ced4db03c46/6cd5a50a-ff0a-4158-bf93-a56892953603"
           (reference "R8") (unit 1)
         )
@@ -1134,7 +1140,7 @@
     (pin "1" (uuid 6cd3e897-2828-4b98-9976-8c8d7ebc6233))
     (pin "2" (uuid 41329eac-f5f8-448f-9baf-7303fd848eed))
     (instances
-      (project "Projet_JIN"
+      (project "Projet_Barbapapa"
         (path "/1f7900b2-90c4-494b-ac10-3ced4db03c46/6cd5a50a-ff0a-4158-bf93-a56892953603"
           (reference "R1") (unit 1)
         )
@@ -1148,7 +1154,7 @@
     (property "Reference" "R9" (at 62.23 71.755 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "RES_0603_2K1_1%" (at 53.34 68.58 0)
+    (property "Value" "RES_0603_5K1_1%" (at 53.34 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "01_Passives:RES_0603" (at 50.8 72.39 0)
@@ -1157,7 +1163,7 @@
     (property "Datasheet" "" (at 60.96 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Resistance" "2k1" (at 62.23 73.66 90)
+    (property "Resistance" "5k1" (at 62.23 73.66 90)
       (effects (font (size 0.8 0.8)) (justify right))
     )
     (property "Power" "100mW" (at 55.88 72.39 0)
@@ -1166,7 +1172,7 @@
     (pin "1" (uuid 91b1b343-6277-4fbd-8c98-32246529c989))
     (pin "2" (uuid 55dc1185-06e4-45e4-8fd8-c535342ac816))
     (instances
-      (project "Projet_JIN"
+      (project "Projet_Barbapapa"
         (path "/1f7900b2-90c4-494b-ac10-3ced4db03c46/6cd5a50a-ff0a-4158-bf93-a56892953603"
           (reference "R9") (unit 1)
         )
@@ -1198,7 +1204,7 @@
     (pin "1" (uuid 1ef84ddd-71a0-4942-9fc4-1015cb386363))
     (pin "2" (uuid 3a78eb00-cae1-4b01-b432-c1978f6582aa))
     (instances
-      (project "Projet_JIN"
+      (project "Projet_Barbapapa"
         (path "/1f7900b2-90c4-494b-ac10-3ced4db03c46/6cd5a50a-ff0a-4158-bf93-a56892953603"
           (reference "C1") (unit 1)
         )
@@ -1223,7 +1229,7 @@
     )
     (pin "VSS" (uuid 6da60c58-95e2-4010-8003-a91042094bbd))
     (instances
-      (project "Projet_JIN"
+      (project "Projet_Barbapapa"
         (path "/1f7900b2-90c4-494b-ac10-3ced4db03c46/6cd5a50a-ff0a-4158-bf93-a56892953603"
           (reference "#VSS010") (unit 1)
         )
@@ -1255,7 +1261,7 @@
     (pin "1" (uuid a426a0f7-f097-4490-9c90-b01653cf2648))
     (pin "2" (uuid 8e7d4749-8a82-4833-a159-69b6fb5c6418))
     (instances
-      (project "Projet_JIN"
+      (project "Projet_Barbapapa"
         (path "/1f7900b2-90c4-494b-ac10-3ced4db03c46/6cd5a50a-ff0a-4158-bf93-a56892953603"
           (reference "C2") (unit 1)
         )
@@ -1291,7 +1297,7 @@
     (pin "8" (uuid 2c80c638-c35a-4669-a2fa-7b65b133359c))
     (pin "9" (uuid 556060c1-adb6-4c32-8b92-3f9950bc5098))
     (instances
-      (project "Projet_JIN"
+      (project "Projet_Barbapapa"
         (path "/1f7900b2-90c4-494b-ac10-3ced4db03c46/6cd5a50a-ff0a-4158-bf93-a56892953603"
           (reference "U1") (unit 1)
         )

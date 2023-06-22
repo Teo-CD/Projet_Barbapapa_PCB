@@ -35,17 +35,17 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 7.35,
-          "width": 8.34
+          "height": 0.825,
+          "width": 0.25
         },
-        "silk_line_width": 0.15,
+        "silk_line_width": 0.153,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15,
+        "silk_text_thickness": 0.153,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -55,14 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "hole_clearance|24364800|62454200|f5214a7d-b160-4f1a-901b-8b6b4f902fb2|e344fdf6-d168-4d3a-b00d-17fa3a1bc372",
-        "hole_clearance|24364800|62454200|f5214a7d-b160-4f1a-901b-8b6b4f902fb2|ec3767a5-211c-4877-94d4-8c4ae748aeff",
-        "hole_clearance|24364800|68254200|27c58c61-1276-401c-93c2-75efb9273e4b|69351cf2-ea4f-4ecf-a476-cd4a54681c9a",
-        "hole_clearance|24364800|68254200|27c58c61-1276-401c-93c2-75efb9273e4b|b808e42f-65ed-4f4e-9464-727214f68baa",
-        "lib_footprint_mismatch|68961000|123366250|3e058587-7584-4046-8156-671b376edc7d|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|93928200|108423025|ecc47d9f-ab9c-4c75-9eb7-ed10b90e5989|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -412,7 +405,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Projet_JIN.kicad_pro",
+    "filename": "Projet_Barbapapa.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -616,6 +609,14 @@
       {
         "netclass": "Control",
         "pattern": "/NFC1_RST"
+      },
+      {
+        "netclass": "Control",
+        "pattern": "/Reg_en"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power and USB/BATT_SAFE"
       }
     ]
   },

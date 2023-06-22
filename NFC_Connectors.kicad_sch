@@ -6,8 +6,8 @@
 
   (title_block
     (title "Projet Barbapapa")
-    (date "2023-06-19")
-    (rev "0.1")
+    (date "2023-06-22")
+    (rev "0.2")
     (company "Téo-CD")
   )
 
@@ -316,7 +316,7 @@
     (pin "6" (uuid 4eec6af8-065c-4ff4-8557-1632e25d04aa))
     (pin "7" (uuid 6a00f76e-3895-4665-852c-b607774737ec))
     (instances
-      (project "Projet_JIN"
+      (project "Projet_Barbapapa"
         (path "/1f7900b2-90c4-494b-ac10-3ced4db03c46/aa7c1e9d-7c11-4485-b6b4-e81567e634cb"
           (reference "J8") (unit 1)
         )
@@ -345,7 +345,7 @@
     (pin "4" (uuid 17c43525-221d-4780-b5ae-a6ae9a8733ad))
     (pin "5" (uuid 6dc2cf4c-bf49-4526-890c-baee9f817991))
     (instances
-      (project "Projet_JIN"
+      (project "Projet_Barbapapa"
         (path "/1f7900b2-90c4-494b-ac10-3ced4db03c46/aa7c1e9d-7c11-4485-b6b4-e81567e634cb"
           (reference "J7") (unit 1)
         )
@@ -370,7 +370,7 @@
     )
     (pin "VSS" (uuid 1859fc43-7cb5-4e4a-a96d-7db33e11fb5f))
     (instances
-      (project "Projet_JIN"
+      (project "Projet_Barbapapa"
         (path "/1f7900b2-90c4-494b-ac10-3ced4db03c46/aa7c1e9d-7c11-4485-b6b4-e81567e634cb"
           (reference "#VSS0107") (unit 1)
         )
