@@ -6,8 +6,8 @@
 
   (title_block
     (title "Projet Barbapapa")
-    (date "2023-06-22")
-    (rev "0.2")
+    (date "2023-06-25")
+    (rev "0.3")
     (company "Téo-CD")
   )
 
@@ -1346,11 +1346,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1ff32ae6-3345-4f56-8e70-486c9fdbd94f)
   )
-  (text "Obligée d'être après\nle chargeur : bloquerait\nla charge sinon ?\nProtège qu'après..."
-    (at 182.88 104.14 0)
-    (effects (font (size 1 1)) (justify left bottom))
-    (uuid 4ac16855-5a48-4a7d-aa98-8745de499723)
-  )
 
   (label "USB_D_P" (at 86.36 101.6 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1448,7 +1443,7 @@
   )
 
   (symbol (lib_id "Switch:SW_SPST") (at 203.2 86.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33b6ac24-c184-498c-ac44-1efa41cf9d35)
     (property "Reference" "SW2" (at 203.2 80.01 0)
       (effects (font (size 1.27 1.27)))
@@ -1541,7 +1536,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 101.6 97.79 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 505d5377-283f-4f40-870b-85c124ecee54)
     (property "Reference" "J3" (at 104.14 98.425 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1587,8 +1582,8 @@
     (property "Voltage" "50V" (at 163.83 105.4037 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 970ed1ec-a3ff-44e0-901e-2f70660346ad))
-    (pin "2" (uuid 6dbf140d-4ba4-49d9-b81e-ff3ad95e5eaa))
+    (pin "1" (uuid 5bfb25a8-d141-4bb3-ab12-6d9c2b855f6f))
+    (pin "2" (uuid 673e6bed-8296-4706-9d5f-2dabb9ceffd4))
     (instances
       (project "Projet_Barbapapa"
         (path "/1f7900b2-90c4-494b-ac10-3ced4db03c46/6cd5a50a-ff0a-4158-bf93-a56892953603"
@@ -1857,8 +1852,8 @@
     (property "Datasheet" "https://docs.rs-online.com/9c01/A700000008874176.pdf" (at 171.45 105.156 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c386ed8f-cb11-43fa-8b28-f0b7ce7e6d4f))
-    (pin "2" (uuid 259f71e4-ca38-47b8-8f63-70f4a7cfe552))
+    (pin "1" (uuid 469bde98-a042-4714-8621-bfebf0573a28))
+    (pin "2" (uuid 9e046294-a2e7-4016-a110-5b465c57b8b8))
     (instances
       (project "Projet_Barbapapa"
         (path "/1f7900b2-90c4-494b-ac10-3ced4db03c46/1ff48b82-bd33-4a97-91b8-e56f2808ae9f"
@@ -2224,7 +2219,7 @@
     (property "Datasheet" "" (at 166.37 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "VSS" (uuid f93e8c47-dac2-411e-a43c-aa8ee9c87d5f))
+    (pin "VSS" (uuid a8cd908e-13e5-475a-bd88-bf2af5144f80))
     (instances
       (project "Projet_Barbapapa"
         (path "/1f7900b2-90c4-494b-ac10-3ced4db03c46/1ff48b82-bd33-4a97-91b8-e56f2808ae9f"
@@ -2284,7 +2279,7 @@
     (property "Datasheet" "" (at 171.45 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "VSS" (uuid 44412763-9601-456f-a835-4d2a8357c6c0))
+    (pin "VSS" (uuid f24f6311-fb6e-4330-83d4-db887e1c90f1))
     (instances
       (project "Projet_Barbapapa"
         (path "/1f7900b2-90c4-494b-ac10-3ced4db03c46/1ff48b82-bd33-4a97-91b8-e56f2808ae9f"
