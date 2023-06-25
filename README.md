@@ -22,3 +22,8 @@ La carte est en période de révision: elle n'a pas été produite ou testée.
 # Choix
 
 *À compléter*
+
+
+# License
+
+Les éléments présents dans ce dépôt sont Open Source Hardware, sous license [CERN Open Hardware Licence Version 2 - Weakly Reciprocal](https://ohwr.org/cern_ohl_w_v2.txt).
