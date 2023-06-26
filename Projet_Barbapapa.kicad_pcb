@@ -7,8 +7,8 @@
   (paper "A4")
   (title_block
     (title "Carte projet Barbapapa")
-    (date "2023-06-25")
-    (rev "0.3")
+    (date "2023-06-26")
+    (rev "1.0")
     (company "Téo-CD")
   )
 

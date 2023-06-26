@@ -16,7 +16,9 @@ Elle doit permettre une opération connectée à un ordinateur, comme indépenda
 
 # État
 
-La carte est en période de révision: elle n'a pas été produite ou testée.
+**Révision 1.0**  
+
+La production de la carte a été lancée, mais pas encore testée.
 
 La versionnement de forme X.Y se lit comme suit:
  - X : Version mise en production (avec 1 comme première production)
