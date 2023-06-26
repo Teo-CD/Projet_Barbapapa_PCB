@@ -3,7 +3,7 @@
 Le Projet Barbapapa est un projet surprise qui réunit des anciens JINs.
 
 L'une des parties de ce projet est un objet intéractif, ce dépôt en contient
-la conception électroniques.
+la conception électroniques, réalisée avec [KiCad](https://www.kicad.org/).
 
 
 # Objectifs
